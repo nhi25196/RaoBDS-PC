@@ -1,0 +1,214 @@
+.btn-outline-warning:hover,
+.btn-outline-warning:active {
+    background: rgba(254, 149, 0, 0.15)!important;
+    border-color: #FE9500!important;
+    color: #FE9500!important;
+}
+
+.navbar-title {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+.nav-link {
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.appBottomMenu {
+    display: none
+}
+
+.tina_logo {
+    width: 20px;
+}
+
+.headerButton {
+    display: none!important;
+}
+
+.tina_title_home a {
+    color: black
+}
+
+.tina-price {
+    font-size: 24px;
+    color: #1E74FD;
+    font-weight: 500;
+}
+
+.tina_css_button-next .bi-arrow-right {
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+
+/* ------------ */
+
+.tina_css__bg-header {
+    color: #eff3f6;
+    background: rgba(0, 0, 0, 0) url(.././../img/my-img/bg-header.jpeg) no-repeat;
+    position: relative;
+    /* z-index: 1; */
+    background-size: cover;
+    height: 500px;
+}
+
+.tina_css__form-search {
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    /* display: flex; */
+    box-shadow: 0 1rem 1rem 1rem rgb(0 0 0 / 15%);
+}
+
+.tina_css__form-search .btn-secondary {
+    background: white!important;
+    border-color: #FE9500!important;
+    color: black!important;
+}
+
+.tina_css__form-search .btn {
+    border-width: 1px;
+}
+
+ul.tina_css__list-title {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.tina_css__list-item {
+    padding: 10px 2px;
+}
+
+
+/* -------------- */
+
+.footer {
+    background-color: #FE9500;
+}
+
+.footer ul li a,
+.contact_footer p {
+    color: black;
+    font-size: 13px
+}
+
+.footer h4 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.item_footer {
+    padding: 15px;
+}
+
+.header_bottom {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tina_css__item-news {
+    padding: 25px!important;
+    margin-top: 15px;
+}
+
+.tina_css__item-news p {
+    padding: 20px 0;
+    overflow: hidden;
+    height: 80px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.tina_css__title-news a {
+    font-size: 20px!important;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #FE9500;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-backdrop {
+    position: unset;
+}
+
+
+/* list page */
+
+.tina_css__item-list {
+    padding: 25px!important;
+}
+
+.tina_css__item-list .price {
+    animation: color-change 1s infinite;
+    margin: 18px 15px!important;
+    font-size: 30px!important;
+}
+
+@keyframes color-change {
+    0% {
+        color: orange;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.item-list_info-sort i {
+    margin-left: 10px!important;
+}
+
+.item-list_info-sort {
+    color: gray!important;
+}
+
+.item-list_content-sort {
+    overflow: hidden;
+    height: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-list_info-contact .item {
+    display: flex;
+}
+
+.contact-call {
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width:991px) {
+    .appBottomMenu {
+        display: inline-flex
+    }
+    .middle {
+        display: none;
+    }
+    .headerButton {
+        display: block!important;
+    }
+    .navbar-title {
+        display: none;
+    }
+    ul.tina_css__list-title {
+        flex-direction: column;
+    }
+    .tina_css__form-search {
+        width: 100%;
+        left: 0;
+        top: 20%
+    }
+    .tina_css__form-search .btn {
+        width: 100%;
+    }
+}

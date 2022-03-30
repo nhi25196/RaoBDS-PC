@@ -1,0 +1,60 @@
+<div class="pt-2 pb-2">
+    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalCheckbox1">Chọn loại bất động sản</button>
+</div>
+<div class="modal fade modalbox" id="ModalCheckbox1" data-bs-backdrop="static" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Please Select</h5>
+                <a href="#" data-bs-dismiss="modal">Close</a>
+            </div>
+            <div class="modal-body p-0">
+
+                <div class="input-list">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="customChecka1">
+                        <label class="form-check-label" for="customChecka1">Apple</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="customChecka2">
+                        <label class="form-check-label" for="customChecka2">Orange</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="customChecka3">
+                        <label class="form-check-label" for="customChecka3">Banana</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+---- phan trang 
+        <div class="section full mt-2">
+            <div class="section-title">Rounded</div>
+            <div class="wide-block pt-2 pb-2">
+                <p><code>.pagination-rounded</code></p>
+                <nav>
+                    <ul class="pagination pagination-rounded">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+
+-----
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
