@@ -62,7 +62,7 @@
     height: auto;
     position: absolute;
     top: 40%;
-    left: 18%;
+    /* left: 18%; */
     /* display: flex; */
     box-shadow: 0 1rem 1rem 1rem rgb(0 0 0 / 15%);
 }
@@ -170,6 +170,7 @@ li.tina_css__list-item {
 
 .tina_css__item-list {
     padding: 25px!important;
+    margin-top: 10px;
 }
 
 .tina_css__item-list .price {
@@ -209,6 +210,16 @@ li.tina_css__list-item {
     display: flex;
 }
 
+.item-list_info-contact button span {
+    margin-left: 5px;
+}
+
 .contact-call {
     width: 100%;
+}
+
+.sort-list {
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
 }
