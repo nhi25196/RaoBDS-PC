@@ -269,3 +269,10 @@ li.tina_css__list-item {
 .contact-call-80 {
     width: 80%;
 }
+
+
+/* Post */
+
+div#cke_content_ckeditor {
+    width: 100%;
+}
