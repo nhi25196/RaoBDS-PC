@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title>List</title>
+    <title>Detail</title>
     <meta name="description" content="Mobilekit HTML Mobile UI Kit">
     <meta name="keywords" content="bootstrap 5, mobile template, cordova, phonegap, mobile, html" />
     <link rel="icon" type="image/png" href="assets/img/my-img/logo2.png" sizes="28x28">
@@ -133,212 +133,41 @@
     </div>
     <!-- * App Header -->
 
+    <!-- Search Component -->
+    <!-- <div id="search" class="appHeader">
+        <form class="search-form">
+            <div class="form-group searchbox">
+                <input type="text" class="form-control" placeholder="Search...">
+                <i class="input-icon">
+                    <ion-icon name="search-outline"></ion-icon>
+                </i>
+                <a href="#" class="ms-1 close toggle-searchbox">
+                    <ion-icon name="close-circle"></ion-icon>
+                </a>
+            </div>
+        </form>
+    </div> -->
+    <!-- * Search Component -->
 
-    <!-- BG header -->
-    <div class="section full mt-2 mb-3">
-        <div class="tina_css__bg-header tina_css__bg-header d-flex justify-content-center">
-            abc
-            <div class="tina_css__form-search">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul class="tina_css__list-title ">
-                                <li class="tina_css__list-item">
-                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalCheckbox1">
-                                        <i class="bi bi-file-earmark-spreadsheet"></i>
-                                        Chọn loại bất động sản
-                                    </button>
+    <!-- img item -->
+    <div class="section">
+        <div class="section full mt-3 mb-3">
 
-                                    <div class="modal fade modalbox" id="ModalCheckbox1" data-bs-backdrop="static" tabindex="-1" role="dialog">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Please Select</h5>
-                                                    <a href="#" data-bs-dismiss="modal">Close</a>
-                                                </div>
-                                                <div class="modal-body p-0">
+            <!-- carousel multiple -->
 
-                                                    <div class="input-list">
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customChecka1">
-                                                            <label class="form-check-label" for="customChecka1">Nhà đất bán</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customChecka2">
-                                                            <label class="form-check-label" for="customChecka2">Nhà đất cho thuê</label>
-                                                        </div>
-
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="tina_css__list-item">
-
-                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalCheckbox2">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Toàn quốc
-                                    </button>
-
-                                    <div class="modal fade modalbox" id="ModalCheckbox2" data-bs-backdrop="static" tabindex="-1" role="dialog">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Please Select</h5>
-                                                    <a href="#" data-bs-dismiss="modal">Close</a>
-                                                </div>
-                                                <div class="modal-body p-0">
-
-                                                    <div class="input-list">
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckb1">
-                                                            <label class="form-check-label" for="customCheckb1">Hà Nội</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckb2">
-                                                            <label class="form-check-label" for="customCheckb2">Đà Nẵng</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckb3">
-                                                            <label class="form-check-label" for="customCheckb3">Hồ Chí Minh</label>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="tina_css__list-item">
-                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalCheckbox3">
-                                        <i class="bi bi-currency-dollar"></i>
-                                            Chọn giá
-                                    </button>
-                                    <div class="modal fade modalbox" id="ModalCheckbox3" data-bs-backdrop="static" tabindex="-1" role="dialog">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Please Select</h5>
-                                                    <a href="#" data-bs-dismiss="modal">Close</a>
-                                                </div>
-                                                <div class="modal-body p-0">
-
-                                                    <div class="input-list">
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckc1">
-                                                            <label class="form-check-label" for="customCheckc1">Hà Nội</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckc2">
-                                                            <label class="form-check-label" for="customCheckc2">Đà Nẵng</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckc3">
-                                                            <label class="form-check-label" for="customCheckc3">Hồ Chí Minh</label>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="tina_css__list-item">
-                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalCheckbox4">
-                                        <i class="bi bi-bricks"></i> 
-                                        Chọn diện tích
-                                    </button>
-                                    <div class="modal fade modalbox" id="ModalCheckbox4" data-bs-backdrop="static" tabindex="-1" role="dialog">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Please Select</h5>
-                                                    <a href="#" data-bs-dismiss="modal">Close</a>
-                                                </div>
-                                                <div class="modal-body p-0">
-
-                                                    <div class="input-list">
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckd1">
-                                                            <label class="form-check-label" for="customCheckd1">Hà Nội</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckc2">
-                                                            <label class="form-check-label" for="customCheckd2">Đà Nẵng</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckc3">
-                                                            <label class="form-check-label" for="customCheckd3">Hồ Chí Minh</label>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="tina_css__list-item">
-                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalCheckbox5">
-                                        <i class="bi bi-sliders"></i>
-                                        Lọc nâng cao
-                                    </button>
-                                    <div class="modal fade modalbox" id="ModalCheckbox5" data-bs-backdrop="static" tabindex="-1" role="dialog">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Please Select</h5>
-                                                    <a href="#" data-bs-dismiss="modal">Close</a>
-                                                </div>
-                                                <div class="modal-body p-0">
-
-                                                    <div class="input-list">
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customChecke1">
-                                                            <label class="form-check-label" for="customChecke1">Hà Nội</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customChecke2">
-                                                            <label class="form-check-label" for="customChecke2">Đà Nẵng</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input" id="customCheckc3">
-                                                            <label class="form-check-label" for="customChecke3">Hồ Chí Minh</label>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="tina_css__list-item">
-                                    <button type="button" class="btn btn-warning shadowed  me-1 mb-1"><i class="bi bi-search"></i>Tim Kiem
-                                        
-                                    </button>
-
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-
-
-
+            <div class="carousel-multiple splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="assets/img/sample/photo/product.jpeg" class="image" alt="product image" data-bs-toggle="modal" data-bs-target="#DialogImage">
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <!-- * carousel multiple -->
         </div>
-
     </div>
-
-    <!-- * BG header -->
+    <!-- * img item -->
 
     <!-- Main  -->
     <!-- title  -->
@@ -347,43 +176,190 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Bán căn hộ chung cư</a></li>
+                    <li class="breadcrumb-item"><a href="#">Hồ Chí Minh</a></li>
+                    <li class="breadcrumb-item"><a href="#">Quận Thủ Đức</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    Phường Trường Thọ Lavita Charm
                 </ol>
             </nav>
-            <div class="header-large-title ">
-                <h1 class="title">Nhà Đất Toàn Quốc Giá Tốt Mới Nhất T4/2022</h1>
-                <h4 class="subtitle">Nhà đất Toàn quốc giá tốt, chính chủ, mới nhất 2022 với đa dạng loại diện tích và giá cả, pháp lý minh bạch. Thông tin bất động sản đầy đủ, sang tên nhanh.</h4>
-            </div>
+
         </div>
     </div>
     <!-- * title  -->
 
     <!--  item  -->
-    <div class="section full mt-3 mb-3">
+    <div class="section full mt-3 mb-3 tina_detail">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <div class="header-large-title ">
-                                <h5 class="section-title medium">Danh sach dang tin</h5>
+
+                    <div class="title">
+                        <div class="rate-block mb-1">
+                            <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                            <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                            <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                            <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                            <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                        </div>
+                        <h4 class="title tina_css__title-detail"><a href="#">Chủ cần bán nhanh căn hộ 2 pn, 2 wc giá tốt có sẵn đầy đủ tiện nghi tại chung cư Lavita Charm</a></h4>
+                        <p class="text"><i class="bi bi-geo-alt"></i> <span> Du an</span> </p>
+                        <p class="text"><i class="bi bi-geo-alt"></i> <span> Chuyen muc</span> </p>
+                        <p class="text"><i class="bi bi-geo-alt"></i> <span> Dia chi</span> </p>
+                    </div>
+                    <div class="content">
+                        <div class="header-large-title ">
+                            <h5 class="section-title medium">Thông tin mô tả</h5>
+                        </div>
+                        <p>Căn hộ &nbsp;<a title="Bán căn hộ chung cư Lavita Charm" href="/ban-can-ho-chung-cu-lavita-charm-quan-thu-duc-ho-chi-minh.html">Lavita Charm</a>, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí.
+                            Ngay ngã tư Bình Thái, đường Vành Đai 2 - Xa Lộ Hà Nội - Liền kề ga số 10 Metro Bến Thành - Suối Tiên sắp đi vào hoạt động.</p>
+                        <p>Cửa hướng : Đông Bắc</p>
+                        <p>Ban công hướng: Tây Nam</p>
+                        <p>Nội thất cơ bản:</p>
+                        <p>+ Full bộ bếp Malloca (bếp từ, lò nướng, máy hút mùi).</p>
+                        <p>+ Full sàn gỗ chuẩn Châu Âu.</p>
+                        <p>+ Full thiết bị vệ sinh ToTo.</p>
+                        <p>+ Thiết bị căn hộ thông minh (smarthome).</p>
+                        <p> Liên hệ trực tiếp chính chủ để xem nhà số điện thoại: 0917553780</p>
+                        <div class="header-large-title ">
+                            <h5 class="section-title medium">Đặc điểm tin đăng</h5>
+                        </div>
+                        <div class="section full mb-2">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Mã tin đăng:</th>
+                                            <td>416744</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khu vực:</th>
+                                            <td>Bán căn hộ chung cư Hồ Chí Minh</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Dự án:</th>
+                                            <td>Lavita Charm</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Ngày cập nhật:</th>
+                                            <td>Thứ tư, 10:30 30/03/2022</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Ngày hết hạn:</th>
+                                            <td>Thứ tư, 11:55 13/04/2022</td>
+
+                                        </tr>
+                                    </tbody>
+
+
+                                </table>
+                            </div>
+
+                        </div>
+                        <div class="header-large-title ">
+                            <h5 class="section-title medium">Vị trí trên bản đồ</h5>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.0295467165483!2d106.67066672788276!3d10.881112088484551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d62b3e0c7373%3A0x574a2fbade2e23b0!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gU09D!5e0!3m2!1svi!2s!4v1648702015878!5m2!1svi!2s"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- <div class="card-body">
+                     
+             
+                        <div class="price">859 triệu</div>
+                        <p class="item-list_info-sort">
+                            <i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span>
+                            <i class="bi bi-bricks"></i> <span>82m2</span>
+                        </p>
+                        <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                            Vành Đai 2
+                        </p>
+                        <div class="item-list_info-contact">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <a href="#" class="item">
+                                        <img src="assets/img/my-img/default-user.png" alt="image" class="imaged w32 rounded">
+                                        <div class="in">
+                                            <h4 class="title">Quang Le</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-5 d-flex justify-content-end">
+                                    <button type="button" class="btn btn-icon btn-warning me-1 mb-1 contact-call">
+                                        <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="flash outline">
+                                        </ion-icon>
+                                       <span>0653822618</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="input-group d-flex justify-content-end">
-                                <select class="custom-select sort-list" id="inputGroupSelect01">
-                      <option selected>Sap Xep...</option>
-                      <option value="1">hot</option>
-                      <option value="2">a-z</option>
-                      <option value="3">z-a</option>
-                    </select>
+                    </div> -->
+                </div>
+                <!-- right -->
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card product-card">
+                                <div class="row">
+                                    <div class="col-6">
+
+                                        <div class="card-body item-list_info-contact">
+                                            <a href="#" class="item">
+                                                <img src="assets/img/my-img/default-user.png" alt="image" class="imaged w32 rounded">
+                                                <div class="in">
+                                                    <h4 class="title">Quang Le</h4>
+                                                </div>
+
+                                            </a>
+                                            <div class="rate-block mb-1">
+                                                <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                                                <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                                                <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                                                <ion-icon name="star" class="active md hydrated" role="img" aria-label="star"></ion-icon>
+                                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mt-2">
+                                            <button type="button" class="btn btn-icon btn-warning me-1 mb-1 contact-call-80">
+                                            <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="flash outline">
+                                            </ion-icon>
+                                           <span>0653822618</span>
+                                        </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="header-large-title">
+                                            <h5 class="section-title medium">Liên hệ tư vấn</h5>
+                                        </div>
+                                        <div class="p-2">
+                                            <div class="form-group">
+                                                <label for="usr">So dien thoai :</label>
+                                                <input type="text" class="form-control" id="usr">
+                                                <label for="comment">Noi dung lien he:</label>
+                                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                                            </div>
+                                            <button type="button" class="btn btn-warning btn-sm btn-block mt-2">Gui yeu cau</button>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
+                <!-- * right -->
             </div>
-
-            <!-- list -->
             <div class="row">
                 <!-- left -->
                 <div class="col-sm-8">
@@ -410,7 +386,7 @@
                                                 <i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span>
                                                 <i class="bi bi-bricks"></i> <span>82m2</span>
                                             </p>
-                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
                                                 Vành Đai 2
                                             </p>
                                             <div class="item-list_info-contact">
@@ -460,7 +436,7 @@
                                                 <i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span>
                                                 <i class="bi bi-bricks"></i> <span>82m2</span>
                                             </p>
-                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
                                                 Vành Đai 2
                                             </p>
                                             <div class="item-list_info-contact">
@@ -510,7 +486,7 @@
                                                 <i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span>
                                                 <i class="bi bi-bricks"></i> <span>82m2</span>
                                             </p>
-                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
                                                 Vành Đai 2
                                             </p>
                                             <div class="item-list_info-contact">
@@ -560,7 +536,7 @@
                                                 <i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span>
                                                 <i class="bi bi-bricks"></i> <span>82m2</span>
                                             </p>
-                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            <p class="item-list_content-sort"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
                                                 Vành Đai 2
                                             </p>
                                             <div class="item-list_info-contact">
@@ -866,8 +842,8 @@
 
                                     <div class="card-body">
 
-                                        <p class="item-list_content-sort-new"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành
-                                            Đai 2
+                                        <p class="item-list_content-sort-new"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            Vành Đai 2
                                         </p>
                                         <div class="price_new">859 triệu</div>
 
@@ -891,8 +867,8 @@
 
                                     <div class="card-body">
 
-                                        <p class="item-list_content-sort-new"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành
-                                            Đai 2
+                                        <p class="item-list_content-sort-new"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            Vành Đai 2
                                         </p>
                                         <div class="price_new">859 triệu</div>
 
@@ -916,8 +892,8 @@
 
                                     <div class="card-body">
 
-                                        <p class="item-list_content-sort-new"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế & phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành
-                                            Đai 2
+                                        <p class="item-list_content-sort-new"> Căn hộ Lavita Charm, Thủ Đức. Diện tích 67,3m2; 2 phòng ngủ, 2 WC. Giá 2,95 tỷ bao hết thuế &amp; phí. Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường Vành Đai 2 Ngay ngã tư Bình Thái, đường
+                                            Vành Đai 2
                                         </p>
                                         <div class="price_new">859 triệu</div>
 
@@ -939,140 +915,44 @@
                 <!-- * right -->
 
             </div>
-            <!-- * list -->
 
-            <!-- list-near -->
-            <div class="row">
-                <div class="col-sm-3">
+            <!-- detail -->
 
-                    <div class="card product-card">
-                        <div class="card-body">
-                            <img src="assets/img/sample/photo/product.jpeg" class="image" alt="product image ">
-                            <h4 class="title tina_title_home "><a href="#">Dự án Phú Lộc II mở bán đất nền ngay tại trung tâm Thành Phố</a></h4>
-                            <div class="price tina_price">500 trieu</div>
-                            <p class="text"><i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span> </p>
-                            <p class="text"><i class="bi bi-bricks"></i> <span>82m2</span> </p>
-                            <div class="divider"></div>
+            <!-- * detail -->
 
-                            <ul class="listview image-listview flush">
-                                <li>
-                                    <a href="#" class="item">
-                                        <img src="assets/img/my-img/default-user.png" alt="image" class="image">
-                                        <div class="in">
-                                            <div>
-                                                Quang Le
-                                                <div class="text-muted">532 followers</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
 
-                    <div class="card product-card">
-                        <div class="card-body">
-                            <img src="assets/img/sample/photo/product.jpeg" class="image" alt="product image ">
-                            <h4 class="title tina_title_home "><a href="#">Dự án Phú Lộc II mở bán đất nền ngay tại trung tâm Thành Phố</a></h4>
-                            <div class="price tina_price">500 trieu</div>
-                            <p class="text"><i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span> </p>
-                            <p class="text"><i class="bi bi-bricks"></i> <span>82m2</span> </p>
-                            <div class="divider"></div>
-
-                            <ul class="listview image-listview flush">
-                                <li>
-                                    <a href="#" class="item">
-                                        <img src="assets/img/my-img/default-user.png" alt="image" class="image">
-                                        <div class="in">
-                                            <div>
-                                                Quang Le
-                                                <div class="text-muted">532 followers</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-
-                    <div class="card product-card">
-                        <div class="card-body">
-                            <img src="assets/img/sample/photo/product.jpeg" class="image" alt="product image ">
-                            <h4 class="title tina_title_home "><a href="#">Dự án Phú Lộc II mở bán đất nền ngay tại trung tâm Thành Phố</a></h4>
-                            <div class="price tina_price">500 trieu</div>
-                            <p class="text"><i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span> </p>
-                            <p class="text"><i class="bi bi-bricks"></i> <span>82m2</span> </p>
-                            <div class="divider"></div>
-
-                            <ul class="listview image-listview flush">
-                                <li>
-                                    <a href="#" class="item">
-                                        <img src="assets/img/my-img/default-user.png" alt="image" class="image">
-                                        <div class="in">
-                                            <div>
-                                                Quang Le
-                                                <div class="text-muted">532 followers</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-
-                    <div class="card product-card">
-                        <div class="card-body">
-                            <img src="assets/img/sample/photo/product.jpeg" class="image" alt="product image ">
-                            <h4 class="title tina_title_home "><a href="#">Dự án Phú Lộc II mở bán đất nền ngay tại trung tâm Thành Phố</a></h4>
-                            <div class="price tina_price">500 trieu</div>
-                            <p class="text"><i class="bi bi-geo-alt"></i> <span> Lạng Sơn - Lạng Sơn</span> </p>
-                            <p class="text"><i class="bi bi-bricks"></i> <span>82m2</span> </p>
-                            <div class="divider"></div>
-
-                            <ul class="listview image-listview flush">
-                                <li>
-                                    <a href="#" class="item">
-                                        <img src="assets/img/my-img/default-user.png" alt="image" class="image">
-                                        <div class="in">
-                                            <div>
-                                                Quang Le
-                                                <div class="text-muted">532 followers</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section full mt-2">
-                <div class="text-center tina_css_button-next">
-                    <button type="button" class="btn btn-outline-warning shadowed me-1 mb-1"> <span>Xem tat ca</span> <i class="bi bi-arrow-right"></i></button>
-
-                </div>
-            </div>
-            <!-- * list-near -->
         </div>
+
+
     </div>
+
+
+
     <!-- * item  -->
+
+
+
     <!-- * Main  -->
 
 
 
 
 
-    <!-- * Main list -->
-
-
-
+    <!-- Dialog Image -->
+    <div class="modal fade dialogbox" id="DialogImage" data-bs-backdrop="static" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <img src="assets/img/my-img/img-detail.jpeg" alt="image" class="img-fluid">
+                <div class="modal-footer">
+                    <div class="btn-inline">
+                        <a href="#" class="btn btn-text-secondary" data-bs-dismiss="modal">CLOSE</a>
+                        <a href="#" class="btn btn-text-primary" data-bs-dismiss="modal">SHARE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- * Dialog Image -->
 
     <!-- footer -->
     <footer>

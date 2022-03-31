@@ -169,14 +169,19 @@ li.tina_css__list-item {
 /* list page */
 
 .tina_css__item-list {
-    padding: 25px!important;
+    padding: 10px!important;
     margin-top: 10px;
 }
 
 .tina_css__item-list .price {
     animation: color-change 1s infinite;
-    margin: 18px 15px!important;
+    margin: 10px 0px!important;
     font-size: 30px!important;
+}
+
+.tina_css__item-list .price_new {
+    animation: color-change 1s infinite;
+    font-size: 13px!important;
 }
 
 @keyframes color-change {
@@ -222,4 +227,45 @@ li.tina_css__list-item {
     border-radius: 6px;
     font-size: 15px;
     font-weight: 500;
+}
+
+.tina_css__item-news p {
+    padding: 20px 0;
+    overflow: hidden;
+    height: 80px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.item-list_content-sort-new {
+    overflow: hidden;
+    height: 60px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+
+/* detail -----*/
+
+.dialogbox .modal-dialog .modal-content {
+    max-width: 100%;
+    margin: auto;
+    max-height: 560px;
+    overflow: auto;
+    border: 0;
+    border-radius: 16px;
+}
+
+.tina_css__title-detail a {
+    font-size: 30px!important;
+    line-height: 35px;
+    ;
+}
+
+.contact-call-80 {
+    width: 80%;
 }
