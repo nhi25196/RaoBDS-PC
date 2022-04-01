@@ -26,4 +26,7 @@
     #myBtn {
         margin-bottom: 60px;
     }
+    .show {
+        display: inherit;
+    }
 }

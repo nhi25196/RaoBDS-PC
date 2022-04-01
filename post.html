@@ -53,24 +53,11 @@
                 </li>
             </ul>
             <div class="right">
-                <div class="dropdown">
-                    <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     
-                    <img src="assets/img/my-img/default-user.png" alt="image" class="imaged w32 rounded">
-                   
-               
-                
-                    </button>
-                    <div class="dropdown-menu" style="">
-                        <a class="dropdown-item" href="#">Copy</a>
-                        <a class="dropdown-item" href="#">Save</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div>
-                </div>
-                <a href="#" class="headerButton" data-bs-toggle="offcanvas" data-bs-target="#sidebarPanel">
+                <a href="#" class="headerButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                     <ion-icon name="menu-outline"></ion-icon>
                 </a>
+
+
             </div>
         </div>
 
@@ -82,7 +69,10 @@
     <div class="section full m">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-4 col-xs-12">
+
+                </div>
+                <div class="col-sm-8 col-xs-12">
 
                     <!-- App Capsule -->
                     <div id="appCapsule">
@@ -531,10 +521,10 @@
     <!-- * App Bottom Menu -->
 
     <!-- App Sidebar -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarPanel">
+    <div class="offcanvas offcanvas-start show" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-body">
             <!-- profile box -->
-            <div class="profileBox">
+            <!-- <div class="profileBox">
                 <div class="image-wrapper">
                     <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded">
                 </div>
@@ -548,10 +538,28 @@
                 <a href="#" class="close-sidebar-button" data-bs-dismiss="offcanvas">
                     <ion-icon name="close"></ion-icon>
                 </a>
-            </div>
+            </div> -->
             <!-- * profile box -->
 
             <ul class="listview flush transparent no-line image-listview mt-2">
+                <li>
+                    <a href="#" class="d-flex justify-content-center">
+                        <div class="image-wrapper">
+                            <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded w32">
+                        </div>
+                        <div class="in">
+                            <strong>Julian Gruber</strong>
+                            <div class="text-muted">
+                                <ion-icon name="location"></ion-icon>
+                                California
+                            </div>
+                        </div>
+                        <a href="#" class="close-sidebar-button" data-bs-dismiss="offcanvas">
+                            <ion-icon name="close"></ion-icon>
+                        </a>
+                    </a>
+                    <div class="divider"></div>
+                </li>
                 <li>
                     <a href="index.html" class="item">
                         <div class="icon-box bg-warning">
